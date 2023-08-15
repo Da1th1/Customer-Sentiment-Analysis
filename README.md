@@ -7,44 +7,38 @@ This repository contains a machine learning project focusing on sentiment analys
 
 ## Overview
 
-The project encompasses the following steps:
+This repository focuses on the sentiment analysis of women's clothing reviews using Python. The dataset contains reviews, ratings, age, and other attributes related to women's clothing. The goal is to predict the sentiment (positive/negative) based on the review text.
 
-1. **Data Exploration**: Understand the structure of the data and its key features.
-2. **Data Cleaning**: Handle missing data, outliers, and other anomalies.
-3. **Feature Engineering**: Extract relevant features for the model.
-4. **Data Visualization**: Explore data distributions and relationships.
-5. **Model Selection**: Choose an appropriate model for sentiment analysis.
-6. **Model Training**: Train the model on the training dataset.
-7. **Model Evaluation**: Evaluate the model's performance on a test dataset.
-8. **Conclusion**: Summarize the findings and insights.
+## Data
 
-## Dataset
+The dataset, `Womens Clothing E-Commerce Reviews.csv`, provides insights into:
 
-The dataset contains customer reviews along with associated information like age, rating, and feedback. The primary columns of interest for the analysis are:
+- Review Text
+- Rating
+- Age
+- Clothing ID
+- Title
+- Recommended IND
+- Positive Feedback Count
+- Division Name
+- Department Name
+- Class Name
 
-- `Review Text`: Textual content of the review.
-- `Rating`: Rating given by the reviewer (from 1 to 5).
+## Getting Started
 
-## Results
-
-The logistic regression model was trained on the reviews and achieved an accuracy of approximately 87.64% on the test set. The model's performance is stronger for positive reviews compared to negative ones, likely due to the class imbalance in the dataset.
-
-## Future Work
-
-- Experiment with more complex models like Random Forest or SVM.
-- Implement techniques to handle class imbalance.
-- Expand the feature set by incorporating additional NLP techniques.
-
-## Requirements
+### Prerequisites
 
 - Python 3.x
-- Libraries: pandas, sklearn, matplotlib, seaborn
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
 
 ## Getting Started
 
 1. Clone the repository:
 ```
-git clone https://github.com/your_username/sentiment-analysis-womens-clothing.git
+git clone https://github.com/Da1th1/Customer-Sentiment-Analysis.git
 ```
 
 2. Run the Jupyter Notebook to walk through the analysis:
